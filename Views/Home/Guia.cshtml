@@ -1,0 +1,67 @@
+@{
+    ViewData["Title"] = "Dicas para Enviar seu RG";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-9">
+        <div class="card card-custom p-4 p-md-5 mb-4">
+            <div class="d-flex align-items-center mb-4 pb-3 border-bottom">
+                <div class="bg-primary text-white p-3 rounded-circle me-3">
+                    <i class="bi bi-camera-fill fs-2"></i>
+                </div>
+                <div>
+                    <h1 class="h3 fw-bold text-primary mb-1">Como Fotografar ou Escanear seu RG</h1>
+                    <p class="text-muted mb-0">
+                        Siga estes passos simples para que nosso sistema consiga validar seu documento de primeira!
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                    <div class="card border border-success h-100 p-3 bg-light">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check-circle-fill text-success fs-3 me-2"></i>
+                            <h5 class="fw-bold text-success mb-0">Forma Correta</h5>
+                        </div>
+                        <ul class="mb-0 text-muted small">
+                            <li class="mb-1">Tire a foto em local bem iluminado (perto de uma janela ou lâmpada).</li>
+                            <li class="mb-1">Retire o RG do plástico de proteção para evitar reflexos ou sombras.</li>
+                            <li class="mb-1">Mantenha o documento reto e enquadrado.</li>
+                            <li>Certifique-se de que os nomes, números e datas estão nítidos e fáceis de ler.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border border-danger h-100 p-3 bg-light">
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-x-circle-fill text-danger fs-3 me-2"></i>
+                            <h5 class="fw-bold text-danger mb-0">O Que Evitar</h5>
+                        </div>
+                        <ul class="mb-0 text-muted small">
+                            <li class="mb-1">Fotos escuras ou tremidas onde os textos fiquem borrados.</li>
+                            <li class="mb-1">Cortar as pontas do documento ou esconder a filiação materna/paterna.</li>
+                            <li class="mb-1">Arquivos pesados com mais de 5 MB (o sistema só aceita até 5 MB).</li>
+                            <li>Arquivos em formatos desconhecidos (use apenas <strong>PDF</strong> ou <strong>PNG</strong>).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="alert alert-primary p-3 d-flex align-items-center mb-4">
+                <i class="bi bi-lightbulb-fill text-primary fs-3 me-3"></i>
+                <div>
+                    <strong>Dica Especial:</strong> Você pode usar a câmera do seu celular para fotografar ou baixar o RG Digital oficial do seu estado em PDF. Ambos funcionam perfeitamente!
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a asp-action="Index" class="btn btn-custom-primary btn-lg px-5">
+                    <i class="bi bi-arrow-left-circle me-2"></i> Voltar e Fazer Cadastro
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
